@@ -1,26 +1,44 @@
 {
-    "manifest_version": 2,
-    "name": "Tweet Reply Extension",
+    "manifest_version": 3,
+    "name": "TweetInsight: Twitter Reply Assistant",
     "version": "1.0",
-    "description": "Adds a button to every Tweet reply field.",
-    "permissions": ["activeTab", "storage"],
+    "description": "Enhance your Twitter reply experience with original tweet insight.",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    
     "content_scripts": [
       {
-        "matches": ["*://twitter.com/*"],
-        "js": ["content.js"]
+        "matches": [
+            "https://twitter.com/*",
+            "*://twitter.com/*",
+            "https://x.com/*"
+          ],
+          "css": [
+            "style.css"
+          ],
+        "js": ["Scripts/content.js"]
       }
     ],
-    "browser_action": {
+    "action": {
       "default_icon": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
       }
     },
-    "icons": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
-    }
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "icons/ready.svg",
+          "icons/error.svg"
+        ],
+        "matches": [
+          "https://twitter.com/*"
+        ]
+      }
+    ]
   }
   
