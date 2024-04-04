@@ -64,3 +64,8 @@ The main files you will need to edit are:
 
 - styling all the component.
 - button width and height .
+
+> content.js
+
+- adding robo button.
+- adding functionality of button.
