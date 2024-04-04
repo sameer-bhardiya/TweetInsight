@@ -1,6 +1,8 @@
 # TweetInsight Chrome Extension for Twitter 
 > A template for making a Google Chrome Extension for Twitter.
 >
+  Video Link,How to configure the this chrome extension :- https://drive.google.com/file/d/1n3XG0GHLfMMJKvjH3vce1BkT-Uwj7Gfc/view
+
 <img src="https://github.com/sameer-bot1/TweetInsight/assets/72939016/015be1ec-0caf-4575-b82a-200e27fd42b2" alt="Screenshot" width="70%" style="border: 2px solid red;">
 
 
