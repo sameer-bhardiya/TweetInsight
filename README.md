@@ -41,3 +41,26 @@ This package has been made to quickly get yourself up and running with making a 
 - Click on "Load unpacked extension...".
 - Navigate to your extracted directory, and click "OK".
 - Your basic extension template should now be alongside your address bar, showing the Google Chrome logo.
+
+## Usage
+
+This package is standalone.  Please visit the Google Developer documentation if you wish to know more about Extension creating:
+
+http://developer.chrome.com/extensions/getstarted.html
+
+
+### Files to edit
+
+The main files you will need to edit are:
+
+> manifest.json
+
+- This contains all of your extension information.
+- As an example, the storage, activeTab, scripting permission has been added.
+- content_scripts is added which consist matches , css, js.
+
+
+> style.css
+
+- styling all the component.
+- button width and height .
