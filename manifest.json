@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "TweetInsight: Twitter Reply Assistant",
     "version": "1.0",
-    "description": "Enhance your Twitter reply experience with original tweet insight.",
+    "description": "Enhance your Twitter reply experience with TweetInsight.",
     "permissions": [
         "storage",
         "activeTab",

@@ -68,4 +68,5 @@ The main files you will need to edit are:
 > content.js
 
 - adding robo button.
+- coping original tweet and pasting on reply text area.
 - adding functionality of button.
