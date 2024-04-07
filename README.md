@@ -41,8 +41,7 @@ This package has been made to quickly get yourself up and running with making a 
 - Enter `chrome://extensions/` into the address bar.
 - Ensure "Developer Mode" is ticked/enabled in the top right.
 - Click on "Load unpacked extension...".
-- Navigate to your extracted directory, and click "OK".
-- Your basic extension template should now be alongside your address bar, showing the Google Chrome logo.
+- Navigate to Twitter, where you will see TweetInsight icon on reply Text Area.
 
 ## Usage
 
